@@ -871,6 +871,10 @@ return array (
                     'type' => 'string',
                     'location' => 'aws.query',
                 ),
+                'PhoneNumber' => array( // new parameter
+                    'type' => 'string',
+                    'location' => 'aws.query',
+                ),
                 'Message' => array(
                     'required' => true,
                     'type' => 'string',
